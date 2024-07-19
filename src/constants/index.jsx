@@ -1,7 +1,4 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
+import { BarChart2, BoxIcon, Settings, Zap } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
@@ -60,40 +57,40 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Settings />,
+    text: "Digitalized Automated Process",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Automate your retail operations to save time and reduce errors.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <BoxIcon />,
+    text: "Improved Supply Chain",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Optimize inventory and manage suppliers with real-time insights.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <BarChart2 />,
+    text: "Easy Business Reports",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Generate detailed, customizable reports with just a few clicks.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Zap />,
+    text: "Speed and Competitive Edge",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Accelerate your business processes to stay ahead of the competition.",
   },
   {
     icon: <PlugZap />,
     text: "Collaboration Tools",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Work together with your team in real-time on , enabling seamless collaboration and idea sharing.",
   },
   {
     icon: <GlobeLock />,
     text: "Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Gain valuable insights into user interactions and behavior within your  applications with an integrated analytics dashboard.",
   },
 ];
 
@@ -122,33 +119,36 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Basic",
+    price: "Rs 750",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Order management",
+      "Customer management",
+      "Sales analytics",
+      "Email and chat support",
+      "Regular data backups",
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Standard Plan",
+    price: "Rs 1250",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "All Basic Plan features",
+      "Advanced reporting",
+      "Demand forecasting",
+      "Customer support",
+      "Integration with payment gateways",
     ],
   },
   {
-    title: "Enterprise",
-    price: "$200",
+    title: "Premium Plan",
+    price: "Rs 2000",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "All Standard Plan features",
+      "AI-powered recommendations",
+      "Accounting and financial management",
+      "Priority customer support",
+      "Customizable branding",
     ],
   },
 ];
